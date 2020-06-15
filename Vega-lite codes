@@ -1,0 +1,28 @@
+# What is the relationship between the number of followers and the number of following for all of the users? (Scatterplot, x-axis: number of posts, y-axis: number of following)
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/Followers/master/FollowersFollowingNew.json"},
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Followers", "type": "quantitative"},
+    "y": {"field": "Following", "type": "quantitative"}
+  }
+}
+
+# What is the relationship between the number of followers and the number of following and their number of posts? (Bubble plot, x-axis: number of followers, y-axis: number of following) 
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Following, Followers, and Posts",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/Followers/master/FollowersFollowingNew.json"},
+  "mark": "point",
+  "width": 50000,
+  "height": 50000,
+  "encoding": {
+    "x": {"field": "Followers", "type": "quantitative"},
+    "y": {"field": "Following", "type": "quantitative"},
+    "size": {"field": "Posts", "type": "quantitative"}
+  }
+}
