@@ -1,0 +1,44 @@
+[
+    {
+        "Emotion": "Unclassified", 
+        "Tweet": 374, 
+        "Number": 1710, 
+        "Retweet": 1336
+    }, 
+    {
+        "Emotion": "Joy", 
+        "Tweet": 351, 
+        "Number": 2750, 
+        "Retweet": 2399
+    }, 
+    {
+        "Emotion": "Sadness", 
+        "Tweet": 153, 
+        "Number": 814, 
+        "Retweet": 661
+    }, 
+    {
+        "Emotion": "Anger", 
+        "Tweet": 191, 
+        "Number": 696, 
+        "Retweet": 505
+    }, 
+    {
+        "Emotion": "Neutral", 
+        "Tweet": 435, 
+        "Number": 3375, 
+        "Retweet": 2940
+    }, 
+    {
+        "Emotion": "Fear", 
+        "Tweet": 75, 
+        "Number": 425, 
+        "Retweet": 350
+    }, 
+    {
+        "Emotion": "Disgust", 
+        "Tweet": 35, 
+        "Number": 212, 
+        "Retweet": 177
+    }
+]
