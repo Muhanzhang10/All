@@ -1,0 +1,107 @@
+[
+    {
+        "Emotion": "Unclassified", 
+        "Gender": "Male", 
+        "Number": 439
+    }, 
+    {
+        "Emotion": "Unclassified", 
+        "Gender": "Female", 
+        "Number": 269
+    }, 
+    {
+        "Emotion": "Unclassified", 
+        "Gender": "Unknown", 
+        "Number": 1002
+    }, 
+    {
+        "Emotion": "Fear", 
+        "Gender": "Male", 
+        "Number": 96
+    }, 
+    {
+        "Emotion": "Fear", 
+        "Gender": "Female", 
+        "Number": 65
+    }, 
+    {
+        "Emotion": "Fear", 
+        "Gender": "Unknown", 
+        "Number": 264
+    }, 
+    {
+        "Emotion": "Anger", 
+        "Gender": "Male", 
+        "Number": 186
+    }, 
+    {
+        "Emotion": "Anger", 
+        "Gender": "Female", 
+        "Number": 115
+    }, 
+    {
+        "Emotion": "Anger", 
+        "Gender": "Unknown", 
+        "Number": 395
+    }, 
+    {
+        "Emotion": "Joy", 
+        "Gender": "Male", 
+        "Number": 420
+    }, 
+    {
+        "Emotion": "Joy", 
+        "Gender": "Female", 
+        "Number": 581
+    }, 
+    {
+        "Emotion": "Joy", 
+        "Gender": "Unknown", 
+        "Number": 1749
+    }, 
+    {
+        "Emotion": "Neutral", 
+        "Gender": "Male", 
+        "Number": 750
+    }, 
+    {
+        "Emotion": "Neutral", 
+        "Gender": "Female", 
+        "Number": 496
+    }, 
+    {
+        "Emotion": "Neutral", 
+        "Gender": "Unknown", 
+        "Number": 2129
+    }, 
+    {
+        "Emotion": "Disgust", 
+        "Gender": "Male", 
+        "Number": 56
+    }, 
+    {
+        "Emotion": "Disgust", 
+        "Gender": "Female", 
+        "Number": 37
+    }, 
+    {
+        "Emotion": "Disgust", 
+        "Gender": "Unknown", 
+        "Number": 119
+    }, 
+    {
+        "Emotion": "Sadness", 
+        "Gender": "Male", 
+        "Number": 190
+    }, 
+    {
+        "Emotion": "Sadness", 
+        "Gender": "Female", 
+        "Number": 151
+    }, 
+    {
+        "Emotion": "Sadness", 
+        "Gender": "Unknown", 
+        "Number": 473
+    }
+]
