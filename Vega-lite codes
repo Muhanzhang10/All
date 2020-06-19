@@ -26,3 +26,18 @@
     "size": {"field": "Posts", "type": "quantitative"}
   }
 }
+
+#"What is the emotion of all the tweets? (Simple bar chart, x-axis: types of emotion, y-axis: number of posts)?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "What is the emotion of all the tweets? (Simple bar chart, x-axis: types of emotion, y-axis: number of posts)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/Netemotion.json"
+  },
+  "mark": "bar",
+  "width": 500,
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal"},
+    "y": {"field": "Number", "type": "quantitative"}
+  }
+}
