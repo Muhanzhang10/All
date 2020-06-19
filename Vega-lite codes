@@ -41,3 +41,26 @@
     "y": {"field": "Number", "type": "quantitative"}
   }
 }
+
+# How does emotion relate to the Post Type of the tweets? (Table bubble plot, x-axis: emotion, y-axis: categories)?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "How does emotion relate to the post type of the tweet?",
+  "data": { "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/Emotion%20to%20Post%20Type.json"},
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "Emotion",
+      "type": "ordinal"
+    },
+    "x": {
+      "field": "Post Type",
+      "type": "ordinal"
+    },
+    "size": {
+      "field": "Number",
+      "type": "quantitative"
+    }
+  }
+}
+
