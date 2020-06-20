@@ -86,4 +86,39 @@
   }
 }
 
+# What is the distribution of the countries of all the tweets(Including Countries not specified)?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "distribution of the countries of all the tweets",
+  "data": {
+      "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/CountryCount.json"
+  },
+  "mark": "arc",
+  "encoding": {
+    "theta": {"field": "Count", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
+  },
+  "view": {"stroke": null}
+}
+
+# What is the distribution of the countries of all the tweets (Country specified)?
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "distribution of the countries of all the tweets",
+  "data": {
+      "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/CountryCount1.json"
+  },
+  "mark": "arc",
+  "encoding": {
+    "theta": {"field": "Count", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
+  },
+  "view": {"stroke": null}
+}
+
+
+
+
+
 
