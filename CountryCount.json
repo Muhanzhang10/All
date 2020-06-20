@@ -1,0 +1,410 @@
+[
+    {
+        "Country": "United States of America",
+        "Count": 3036
+    },
+    {
+        "Country": "",
+        "Count": 5109
+    },
+    {
+        "Country": "United Kingdom",
+        "Count": 357
+    },
+    {
+        "Country": "Costa Rica",
+        "Count": 9
+    },
+    {
+        "Country": "Brazil",
+        "Count": 66
+    },
+    {
+        "Country": "Germany",
+        "Count": 78
+    },
+    {
+        "Country": "Canada",
+        "Count": 210
+    },
+    {
+        "Country": "Republic of Ireland",
+        "Count": 19
+    },
+    {
+        "Country": "Thailand",
+        "Count": 24
+    },
+    {
+        "Country": "South Africa",
+        "Count": 39
+    },
+    {
+        "Country": "Malaysia",
+        "Count": 19
+    },
+    {
+        "Country": "Finland",
+        "Count": 11
+    },
+    {
+        "Country": "Russia",
+        "Count": 19
+    },
+    {
+        "Country": "France",
+        "Count": 63
+    },
+    {
+        "Country": "Italy",
+        "Count": 20
+    },
+    {
+        "Country": "Australia",
+        "Count": 94
+    },
+    {
+        "Country": "Denmark",
+        "Count": 5
+    },
+    {
+        "Country": "Ghana",
+        "Count": 5
+    },
+    {
+        "Country": "Algeria",
+        "Count": 1
+    },
+    {
+        "Country": "Indonesia",
+        "Count": 73
+    },
+    {
+        "Country": "Netherlands",
+        "Count": 28
+    },
+    {
+        "Country": "Philippines",
+        "Count": 62
+    },
+    {
+        "Country": "Sweden",
+        "Count": 19
+    },
+    {
+        "Country": "India",
+        "Count": 52
+    },
+    {
+        "Country": "South Korea",
+        "Count": 58
+    },
+    {
+        "Country": "Japan",
+        "Count": 102
+    },
+    {
+        "Country": "Sri Lanka",
+        "Count": 2
+    },
+    {
+        "Country": "Spain",
+        "Count": 53
+    },
+    {
+        "Country": "Colombia",
+        "Count": 13
+    },
+    {
+        "Country": "Romania",
+        "Count": 3
+    },
+    {
+        "Country": "Poland",
+        "Count": 16
+    },
+    {
+        "Country": "Bahrain",
+        "Count": 1
+    },
+    {
+        "Country": "Vietnam",
+        "Count": 5
+    },
+    {
+        "Country": "Israel",
+        "Count": 5
+    },
+    {
+        "Country": "Mexico",
+        "Count": 51
+    },
+    {
+        "Country": "Belgium",
+        "Count": 6
+    },
+    {
+        "Country": "New Zealand",
+        "Count": 9
+    },
+    {
+        "Country": "Guatemala",
+        "Count": 1
+    },
+    {
+        "Country": "Singapore",
+        "Count": 18
+    },
+    {
+        "Country": "Puerto Rico",
+        "Count": 10
+    },
+    {
+        "Country": "Namibia",
+        "Count": 4
+    },
+    {
+        "Country": "Egypt",
+        "Count": 5
+    },
+    {
+        "Country": "Antarctica",
+        "Count": 1
+    },
+    {
+        "Country": "Kuwait",
+        "Count": 2
+    },
+    {
+        "Country": "Argentina",
+        "Count": 23
+    },
+    {
+        "Country": "Austria",
+        "Count": 7
+    },
+    {
+        "Country": "Venezuela",
+        "Count": 10
+    },
+    {
+        "Country": "Ecuador",
+        "Count": 3
+    },
+    {
+        "Country": "Nigeria",
+        "Count": 25
+    },
+    {
+        "Country": "Estonia",
+        "Count": 1
+    },
+    {
+        "Country": "Turkey",
+        "Count": 7
+    },
+    {
+        "Country": "Bangladesh",
+        "Count": 5
+    },
+    {
+        "Country": "United Arab Emirates",
+        "Count": 6
+    },
+    {
+        "Country": "Peru",
+        "Count": 5
+    },
+    {
+        "Country": "Chile",
+        "Count": 11
+    },
+    {
+        "Country": "Norway",
+        "Count": 7
+    },
+    {
+        "Country": "Fiji",
+        "Count": 5
+    },
+    {
+        "Country": "Mauritius",
+        "Count": 1
+    },
+    {
+        "Country": "Trinidad and Tobago",
+        "Count": 2
+    },
+    {
+        "Country": "Switzerland",
+        "Count": 8
+    },
+    {
+        "Country": "Dominican Republic",
+        "Count": 2
+    },
+    {
+        "Country": "Lebanon",
+        "Count": 1
+    },
+    {
+        "Country": "Iran",
+        "Count": 1
+    },
+    {
+        "Country": "Kazakhstan",
+        "Count": 1
+    },
+    {
+        "Country": "Portugal",
+        "Count": 10
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Count": 5
+    },
+    {
+        "Country": "Kenya",
+        "Count": 3
+    },
+    {
+        "Country": "Greece",
+        "Count": 5
+    },
+    {
+        "Country": "Morocco",
+        "Count": 2
+    },
+    {
+        "Country": "Pakistan",
+        "Count": 4
+    },
+    {
+        "Country": "Hong Kong S.A.R.",
+        "Count": 7
+    },
+    {
+        "Country": "Hungary",
+        "Count": 5
+    },
+    {
+        "Country": "Taiwan",
+        "Count": 3
+    },
+    {
+        "Country": "Northern Cyprus",
+        "Count": 1
+    },
+    {
+        "Country": "United Republic of Tanzania",
+        "Count": 1
+    },
+    {
+        "Country": "Luxembourg",
+        "Count": 1
+    },
+    {
+        "Country": "Ukraine",
+        "Count": 2
+    },
+    {
+        "Country": "Cambodia",
+        "Count": 1
+    },
+    {
+        "Country": "Latvia",
+        "Count": 2
+    },
+    {
+        "Country": "Croatia",
+        "Count": 1
+    },
+    {
+        "Country": "Bulgaria",
+        "Count": 1
+    },
+    {
+        "Country": "Jamaica",
+        "Count": 1
+    },
+    {
+        "Country": "Qatar",
+        "Count": 4
+    },
+    {
+        "Country": "Panama",
+        "Count": 2
+    },
+    {
+        "Country": "Czech Republic",
+        "Count": 3
+    },
+    {
+        "Country": "El Salvador",
+        "Count": 2
+    },
+    {
+        "Country": "Myanmar",
+        "Count": 1
+    },
+    {
+        "Country": "Georgia",
+        "Count": 2
+    },
+    {
+        "Country": "Botswana",
+        "Count": 1
+    },
+    {
+        "Country": "Palestine",
+        "Count": 1
+    },
+    {
+        "Country": "Malta",
+        "Count": 1
+    },
+    {
+        "Country": "Paraguay",
+        "Count": 2
+    },
+    {
+        "Country": "Bolivia",
+        "Count": 1
+    },
+    {
+        "Country": "The Gambia",
+        "Count": 1
+    },
+    {
+        "Country": "Zimbabwe",
+        "Count": 1
+    },
+    {
+        "Country": "Iraq",
+        "Count": 3
+    },
+    {
+        "Country": "Zambia",
+        "Count": 1
+    },
+    {
+        "Country": "United States Virgin Islands",
+        "Count": 1
+    },
+    {
+        "Country": "Jordan",
+        "Count": 1
+    },
+    {
+        "Country": "Syria",
+        "Count": 1
+    },
+    {
+        "Country": "Slovenia",
+        "Count": 1
+    },
+    {
+        "Country": "Republic of Serbia",
+        "Count": 1
+    }
+]
