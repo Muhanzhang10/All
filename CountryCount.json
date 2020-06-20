@@ -1,0 +1,26 @@
+[
+    {
+        "Country": "United States of America",
+        "Count": 3036
+    },
+    {
+        "Country": "Unspecified",
+        "Count": 5109
+    },
+    {
+        "Country": "United Kingdom",
+        "Count": 357
+    },
+    {
+        "Country": "Canada",
+        "Count": 210
+    },
+    {
+        "Country": "Japan",
+        "Count": 102
+    },
+    {
+        "Country": "other",
+        "Count": 1186
+    }
+]
