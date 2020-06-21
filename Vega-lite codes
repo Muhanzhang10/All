@@ -149,7 +149,37 @@
   }
 }
 
+# What is the number of posts against Followers in different months?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/RecentAll.json"},
 
+  "mark": "text",
+  "width" : 500,
+  "height": 500,
+  "encoding": {
+    "x": {"field": "Followers", "type": "quantitative"},
+    "y": {"field": "Posts", "type": "quantitative"},
+    "color": {"field": "Month", "type": "nominal"},
+    "text": {"field": "MonthInitial", "type": "nominal"}
+  }
+}
+
+# What is the number of posts agaisnt Following in different months?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/RecentAll.json"},
+
+  "mark": "text",
+  "width" : 500,
+  "height": 500,
+  "encoding": {
+    "x": {"field": "Following", "type": "quantitative"},
+    "y": {"field": "Posts", "type": "quantitative"},
+    "color": {"field": "Month", "type": "nominal"},
+    "text": {"field": "MonthInitial", "type": "nominal"}
+  }
+}
 
 
 
