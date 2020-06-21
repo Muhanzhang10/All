@@ -117,6 +117,23 @@
   "view": {"stroke": null}
 }
 
+#What is the general emotion in the US?
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Emotion in the US",
+  "width" : 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/USemotion.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "y": {"field": "Count", "type": "quantitative"}
+  }
+}
+
+
 
 
 
