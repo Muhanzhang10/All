@@ -133,6 +133,23 @@
   }
 }
 
+# What is the general emotion in the UK?
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Emotion in the UK",
+  "width" : 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/UKemotion.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "y": {"field": "Count", "type": "quantitative"}
+  }
+}
+
+
 
 
 
