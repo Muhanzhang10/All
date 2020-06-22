@@ -27,6 +27,33 @@
   }
 }
 
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/All.json"},
+  "mark": "rect",
+  "width": 300,
+  "height": 200,
+  "encoding": {
+    "x": {
+      "field": "Followers",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "Following",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "Posts",
+      "type": "quantitative"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
+
 #"What is the emotion of all the tweets? (Simple bar chart, x-axis: types of emotion, y-axis: number of posts)?
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
