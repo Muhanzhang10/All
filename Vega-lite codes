@@ -219,6 +219,28 @@
   }
 }
 
+# What is the count of different categories to different emotions?
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/All.json"},
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Category",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "Emotion",
+      "type": "ordinal"
+    },
+    "size": {
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  }
+}
+
+
 
 
 
