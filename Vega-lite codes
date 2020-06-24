@@ -269,7 +269,24 @@
 
 # What is the distribution of the number of tweets in different months in 2019 and 2020?
 
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/RecentAll2019.json"
+  },
+  "width": 600,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Month",
+      "type": "ordinal",
+      "sort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      "axis": {"labelAngle": 0}},
+    "y": {
+      "aggregate": "count", "type": "quantitative"}
+  }
+}
 
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
