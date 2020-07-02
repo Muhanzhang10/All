@@ -397,6 +397,51 @@
   }
 }
 
+# Emotion of the data with different posts level
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/All.json"},
+  "mark": {"type": "bar", "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal"},
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Count of Emotion"
+    },
+    
+    "color": {"field": "PostsLevel", "type": "nominal"}
+  }
+}
+
+#Emotion of the data with posts below 5000 and above 5000
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/All.json"},
+   "transform": [
+    {"filter": "datum.Posts < 5000"}
+   ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal"},
+    "y": {"aggregate": "count", "type": "quantitative"}
+  }
+}
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {"url": "https://raw.githubusercontent.com/Muhanzhang10/All/master/All.json"},
+   "transform": [
+    {"filter": "datum.Posts > 5000"}
+   ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Emotion", "type": "ordinal"},
+    "y": {"aggregate": "count", "type": "quantitative"}
+  }
+}
 
 
 
