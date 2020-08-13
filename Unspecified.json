@@ -1,0 +1,34 @@
+[
+    {
+        "Count": 1654,
+        "Emotion": "Joy"
+    },
+    {
+        "Count": 1595,
+        "Emotion": "Neutral"
+    },
+    {
+        "Count": 820,
+        "Emotion": "Unclassified"
+    },
+    {
+        "Count": 311,
+        "Emotion": "Anger"
+    },
+    {
+        "Count": 388,
+        "Emotion": "Sadness"
+    },
+    {
+        "Count": 209,
+        "Emotion": "Fear"
+    },
+    {
+        "Count": 5,
+        "Emotion": "Surprise"
+    },
+    {
+        "Count": 119,
+        "Emotion": "Disgust"
+    }
+]
